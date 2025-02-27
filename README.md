@@ -6,14 +6,14 @@ qualquer.
 ### Exemplo de uso
 ![Meu gif](whatsapp-sticker-creator.gif)
 
-### Biblioteas utizadas (back-end)
+### Bibliotecas utizadas (back-end)
 <p><b>Twilio</b>: API para envio de mensagens de Whatsapp;</p>
 <p><b>Cloudinary</b>: API para gerenciamento de arquivos em nuvem;</p>
 <p><b>Coffecode Router</b>: biblioteca para roteamento;</p>
 <p><b>Twig</b>: template engine para renderização de páginas;</p>
 <p><b>GD</b>: extensão do PHP para gerencamento de arquivos.</p>
 
-### Biblioteas utizadas (front-end)
+### Bibliotecas utizadas (front-end)
 <p><b>Fabric.js</b>: bibloteca javascript para manipulação de elementos em canva;</p>
 <p><b>Font face observer</b>: bibloteca javascript para controlar o carregamento de fontes na aplicação.</p>
 
