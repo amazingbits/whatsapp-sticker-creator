@@ -33,6 +33,7 @@
     }
   },
   "require-dev": {
-    "pestphp/pest": "1.23.1"
+    "pestphp/pest": "1.23.1",
+    "symfony/http-client": "5.4.49"
   }
 }
