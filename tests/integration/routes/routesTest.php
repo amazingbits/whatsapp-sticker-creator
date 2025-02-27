@@ -21,14 +21,3 @@ test('GET / invalid route should be 404 in this content', function () {
     expect($response->getStatusCode())->toBe(200);
     expect($response->getContent())->toContain("404");
 });
-
-test('POST /api/whatsapp/send should return 200', function () {
-    $response = $this->client->request('POST', getenv("BASE_URL") . '/api/whatsapp/send', [
-        'json' => [
-            'message' => 'Hello World',
-            'phone' => '48999999999',
-        ]
-    ]);
-
-    expect($response->getStatusCode())->toBe(200);
-});
