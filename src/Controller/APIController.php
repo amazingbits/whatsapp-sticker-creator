@@ -44,7 +44,7 @@ class APIController extends Controller
         $whatsAppService = new WhatsappService();
         $message = $whatsAppService->sendMessage($phoneNumber, null, $upload);
 
-        $cloudService->delete($upload);
+        // $cloudService->delete($upload);
         $localService->delete($upload);
 
         if ($message->errorCode) {

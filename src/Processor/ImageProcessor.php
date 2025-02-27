@@ -56,7 +56,7 @@ class ImageProcessor
             $origWidth, $origHeight
         );
 
-        imagewebp($img, $stickerPath, 80);
+        imagewebp($resizedImg, $stickerPath, 80);
 
         imagedestroy($img);
         imagedestroy($resizedImg);
