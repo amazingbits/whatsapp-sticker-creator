@@ -7,3 +7,33 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+.error-box {
+    width: 100vw;
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error-box h1 {
+    font-size: 7rem;
+    color: #F44336;
+    margin-bottom: 1.5rem;
+}
+
+.error-box p {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #414141;
+}
+
+.error-box a {
+    font-weight: 700;
+    color: #414141;
+    text-decoration: none;
+}
