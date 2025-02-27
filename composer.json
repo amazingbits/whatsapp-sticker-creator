@@ -6,6 +6,9 @@
       "email": "gui-keanne@hotmail.com"
     }
   ],
+  "scripts": {
+    "test": "vendor/bin/pest"
+  },
   "require": {
     "php": "8.0.*",
     "ext-gd": "*",
@@ -19,11 +22,17 @@
   "config": {
     "platform": {
       "php": "8.0.0"
+    },
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
     }
   },
   "autoload": {
     "psr-4": {
       "Src\\": "src/"
     }
+  },
+  "require-dev": {
+    "pestphp/pest": "1.23.1"
   }
 }
