@@ -10,5 +10,8 @@ require_once __DIR__ . "/../vendor/autoload.php";
 // load helpers
 require_once __DIR__ . "/../load_helpers.php";
 
+// register global error handler
+\Src\Core\ErrorHandler::register();
+
 $dotenv = \Dotenv\Dotenv::createUnsafeImmutable(__DIR__ . "/../");
 $dotenv->load();
